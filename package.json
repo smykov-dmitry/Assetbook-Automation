@@ -1,0 +1,45 @@
+{
+  "name": "JSFramework",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "config": "node utils/copyFile.ts",
+    "prestartserver": "webdriver-manager update --ie32",
+    "startserver": "webdriver-manager start --ie32",
+    "test": "tsc",
+    "preprotractor": "npm run test && webdriver-manager update",
+    "protractor": "protractor tmp/protractor.conf.js",
+    "protractorWithServer": "npm-run-all -p -r startserver protractor"
+  },
+  "dependencies": {
+    "md5.js": "^1.3.4",
+    "protractor": "^5.2.2",
+    "testrail-api": "^1.3.2",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.4",
+    "@types/node": "^6.0.96",
+    "fs": "0.0.1-security",
+    "fs-copy-file": "^2.1.2",
+    "http": "0.0.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "lodash": "^4.17.10",
+    "mysql": "^2.16.0",
+    "npm-run-all": "^4.1.2",
+    "oracledb": "^2.0.15",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "request": "^2.87.0",
+    "superagent": "^3.8.2",
+    "unirest": "^0.5.1",
+    "ws": "^4.1.0",
+    "xml-parser": "^1.2.1"
+  },
+  "keywords": [
+    "tests",
+    "e2e",
+    "protractor",
+    "webdriver"
+  ]
+}
