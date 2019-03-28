@@ -1,0 +1,202 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1553781014796' stop='1553781046753'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1553781015939' status='passed' stop='1553781030548'>
+            <name>Login with empty fields</name>
+            <title>Login with empty fields</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781015941' status='passed' stop='1553781030241'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553781030548' status='passed' stop='1553781033630'>
+            <name>Login with empty username</name>
+            <title>Login with empty username</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781030549' status='passed' stop='1553781033470'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781033470' status='passed' stop='1553781033563'>
+                    <name>Fill in the Password field with the following value 'P@n@son1c'</name>
+                    <title>Fill in the Password field with the following value 'P@n@son1c'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553781033630' status='passed' stop='1553781035475'>
+            <name>Login with empty password</name>
+            <title>Login with empty password</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781033632' status='passed' stop='1553781035315'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781035316' status='passed' stop='1553781035383'>
+                    <name>Fill in the User Name field with the following value 'Dmitry'</name>
+                    <title>Fill in the User Name field with the following value 'Dmitry'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553781035475' status='passed' stop='1553781038020'>
+            <name>Login with wrong username</name>
+            <title>Login with wrong username</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781035476' status='passed' stop='1553781036341'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781036341' status='passed' stop='1553781036560'>
+                    <name>Fill in the User Name field with the following value 'John Doe'</name>
+                    <title>Fill in the User Name field with the following value 'John Doe'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781036560' status='passed' stop='1553781036633'>
+                    <name>Fill in the Password field with the following value 'P@n@son1c'</name>
+                    <title>Fill in the Password field with the following value 'P@n@son1c'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781036676' status='passed' stop='1553781036770'>
+                    <name>Click on element By(css selector, .login__button)</name>
+                    <title>Click on element By(css selector, .login__button)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781038018' status='passed' stop='1553781038018'>
+                    <name>Compare expected result 'There was an issue signing in.' with actual</name>
+                    <title>Compare expected result 'There was an issue signing in.' with actual</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553781038020' status='passed' stop='1553781040620'>
+            <name>Login with wrong password</name>
+            <title>Login with wrong password</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781038021' status='passed' stop='1553781039683'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781039683' status='passed' stop='1553781039748'>
+                    <name>Fill in the User Name field with the following value 'Dmitry'</name>
+                    <title>Fill in the User Name field with the following value 'Dmitry'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781039748' status='passed' stop='1553781039820'>
+                    <name>Fill in the Password field with the following value 'qwerty123'</name>
+                    <title>Fill in the Password field with the following value 'qwerty123'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781039864' status='passed' stop='1553781039940'>
+                    <name>Click on element By(css selector, .login__button)</name>
+                    <title>Click on element By(css selector, .login__button)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781040619' status='passed' stop='1553781040619'>
+                    <name>Compare expected result 'There was an issue signing in.' with actual</name>
+                    <title>Compare expected result 'There was an issue signing in.' with actual</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553781040620' status='passed' stop='1553781041799'>
+            <name>Checking eye icon working</name>
+            <title>Checking eye icon working</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781040620' status='passed' stop='1553781041514'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781041514' status='passed' stop='1553781041724'>
+                    <name>Fill in the Password field with the following value 'qwerty123'</name>
+                    <title>Fill in the Password field with the following value 'qwerty123'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781041724' status='passed' stop='1553781041785'>
+                    <name>Click on element By(css selector, .login__eye-icon--gray)</name>
+                    <title>Click on element By(css selector, .login__eye-icon--gray)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1553781041799' status='passed' stop='1553781046752'>
+            <name>Login with correct username and password</name>
+            <title>Login with correct username and password</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1553781041800' status='passed' stop='1553781043466'>
+                    <name>Go to 'https://radaralphaqa.assetbook.net'</name>
+                    <title>Go to 'https://radaralphaqa.assetbook.net'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781043466' status='passed' stop='1553781043526'>
+                    <name>Fill in the User Name field with the following value 'Dmitry'</name>
+                    <title>Fill in the User Name field with the following value 'Dmitry'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781043526' status='passed' stop='1553781043593'>
+                    <name>Fill in the Password field with the following value 'P@n@son1c'</name>
+                    <title>Fill in the Password field with the following value 'P@n@son1c'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1553781043633' status='passed' stop='1553781043712'>
+                    <name>Click on element By(css selector, .login__button)</name>
+                    <title>Click on element By(css selector, .login__button)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

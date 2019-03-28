@@ -45,6 +45,7 @@ export let config: Config = {
     exclude: [ ],
 
     suites:{
+        login: 'test/login.e2e.spec.ts'
     },
 
 

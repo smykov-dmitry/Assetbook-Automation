@@ -50,7 +50,9 @@ exports.config = {
         "./test/*.e2e.spec.js",
     ],
     exclude: [],
-    suites: {},
+    suites: {
+        login: 'test/login.e2e.spec.ts'
+    },
     params: {
         baseUrl: "https://www.google.by/",
         apiBaseUrl: "http://apibaseurl",
