@@ -59,7 +59,7 @@ describe('Login', async () => {
         await expectToContain(() => getAttribute, impersonateUser.wrongPassword);
     });
 
-    it('Login with correct username and password', async () => {
+    it('Impersonate login with correct username and password', async () => {
         await LoginPage.impersonateLogin(impersonateUser.userName, impersonateUser.password);
     });
 });

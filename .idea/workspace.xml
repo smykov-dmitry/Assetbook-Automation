@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b7525d21-cc79-489f-b795-3aff4702e282" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/loginpage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/loginpage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/simple/button.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/simple/button.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js" beforeDir="false" afterPath="$PROJECT_DIR$/js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/protractor/node_modules/webdriver-manager/selenium/gecko-response.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/protractor/node_modules/webdriver-manager/selenium/gecko-response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/jasmineHtmlReport/htmlReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/jasmineHtmlReport/htmlReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/login.e2e.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/login.e2e.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/components/loginpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/components/loginpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/components/simple/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/components/simple/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/test/login.e2e.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/test/login.e2e.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginpage.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginpage.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/loginpage.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -46,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.e2e.spec.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.e2e.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/login.e2e.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+            <state relative-caret-position="258">
+              <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -118,8 +120,8 @@
         <option value="$PROJECT_DIR$/protractor.conf.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/components/simple/button.ts" />
-        <option value="$PROJECT_DIR$/test/login.e2e.spec.ts" />
         <option value="$PROJECT_DIR$/components/loginpage.ts" />
+        <option value="$PROJECT_DIR$/test/login.e2e.spec.ts" />
       </list>
     </option>
   </component>
@@ -217,18 +219,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553779236652</updated>
-      <workItem from="1553779237865" duration="15798000" />
+      <workItem from="1553779237865" duration="17060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15798000" />
+    <option name="totallyTimeSpent" value="17060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17702845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -236,7 +239,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.21753247" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -282,13 +285,6 @@
     <entry file="file://$PROJECT_DIR$/output/allure-results/d6952c81-a885-4e51-aef5-9cf4c0d3ef43-testsuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testData/global.ts">
@@ -356,16 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/login.e2e.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/allure-results/facf0936-398e-4fbe-98bc-c1b4304aa74d-attachment.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -375,6 +361,23 @@
           <caret line="36" column="100" lean-forward="true" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
           <folding>
             <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/login.e2e.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="64" column="3" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
