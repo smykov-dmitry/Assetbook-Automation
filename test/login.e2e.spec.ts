@@ -7,6 +7,7 @@ import {Attributes} from "../js/core/utils/attributes";
 import {ButtonExtend} from "../components/simple/button";
 
 
+
 describe('Login', async () => {
 
     it('Login with empty fields', async () => {
@@ -61,5 +62,6 @@ describe('Login', async () => {
 
     it('Impersonate login with correct username and password', async () => {
         await LoginPage.impersonateLogin(impersonateUser.userName, impersonateUser.password);
+        await expectToDisplay(assetbookElement.dashboardPage.top4HouseholdsChart, true);
     });
 });
