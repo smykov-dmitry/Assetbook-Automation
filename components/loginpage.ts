@@ -1,5 +1,5 @@
 import {allureStep, expectToDisplay} from "../js/core/helper/allure/allureSteps";
-import {browser} from "protractor";
+import {browser, ElementFinder} from "protractor";
 import {assetbookElement} from "../elements/elements";
 import {urls} from "../testData/global";
 import {Waiters as w } from "../js/core/helper/waiters";
@@ -28,15 +28,22 @@ export class LoginPage {
 
     public static async impersonateLogin(userName: string, password: string) {
         await allureStep('Log In', async() => {
-            await browser.waitForAngularEnabled(false);
             await this.goToUrl(urls.assetbookQAStage);
             await this.fillUserNameField(userName);
             await this.fillPasswordField(password);
-            await ButtonExtend.clickOnElement(assetbookElement.loginPage.enabledLoginButton);
-            await w.waitUntilElementIsDisplayed(assetbookElement.dashboardPage.assetsUnderManagementChart);
-            await w.waitUntilElementIsDisplayed(assetbookElement.dashboardPage.top4HouseholdsChart);
+            await ButtonExtend.clickButtonElementAndWait(assetbookElement.loginPage.enabledLoginButton, assetbookElement.header.userLabel)
         });
     };
+
+    public static async nonImpersonateLogin(userName: string, password: string, dbSelector: ElementFinder) {
+        await allureStep('Log In', async() => {
+            await this.goToUrl(urls.assetbookQAStage);
+            await this.fillUserNameField(userName);
+            await this.fillPasswordField(password);
+            await ButtonExtend.clickButtonElementAndWait(assetbookElement.loginPage.enabledLoginButton, dbSelector);
+            await ButtonExtend.clickButtonElementAndWait(dbSelector, assetbookElement.header.userLabel);
+        });
+    }
 
     public static async submitAndWaitForErrorMessage() {
         await allureStep('Click Login button and wait', async() => {
